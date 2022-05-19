@@ -1,0 +1,26 @@
+{% extends "base.html.twig" %} {# faire un extends pour pouvoir utiliser le template de base #}
+
+{% block title %}The site
+{% endblock %}
+
+{% block body %} 
+
+<div class="bg-image" 
+     style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
+            height: 100vh">
+
+<div class="jumbotron">
+  <h1 class="display-4">Bienvenue sur mon site!</h1>
+  <p class="lead"> Ce site est incroyable et fait avec symfony</p>
+  <hr class="my-4">
+  <p>En dessous vous trouverez un boutton qui sert à rien pour l'instant</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button">inscription</a>
+  </p>
+</div>
+<div class="container ">
+<img src="img/zeds.webp" class="rounded mx-auto d-block" alt="zed" width="800">
+
+</div>
+    </div>
+{% endblock %}
