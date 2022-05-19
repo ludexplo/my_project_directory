@@ -8,7 +8,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 class HomeController extends AbstractController
 {
     /**
-     * @Route("/}", name="test")
+     * @Route("/", name="blog_list")
      */
     public function index(): Response
     {
